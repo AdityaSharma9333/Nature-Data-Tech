@@ -1,2 +1,4 @@
 # Nature-Data-Tech
 This Website is created with the help of Django Framework
+In this website any user can register and login with their username & password. Working of Django is usually depends in which urls, user can request. When a user can send a request to any url pattern, Django will always look for those urls in their urls.py file. When url pattern is matched, Django send it to their respective views.  Usually Django websites works on MVT i.e. Model, Views, and Templates. This website is fast and secure for better user experience. 
+In Nature Data Tech Website the user can know various data systems which company provides, it provides unique solutions to every various tools and framework .In this website user can contact the company by giving its email id and Name ,can register himself and login with their username and password and also user can gives its views, or can express its idea’s.
