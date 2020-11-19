@@ -1,0 +1,169 @@
+/*Navbar Custom Css*/
+.navbar{
+	background-color:#8B008B;
+	
+      
+}
+
+.navbar-brand{
+
+	color: aliceblue;
+
+}
+
+.navbar-brand:hover{
+
+	color: aquamarine;
+}
+
+.nav-link{
+
+	color: aliceblue;
+	
+}
+
+.nav-link:hover{
+
+	color: aquamarine;
+}
+
+.navbar-toggler-icon{
+	color: white;
+}
+
+/*Templates css*/
+.myclass{
+	background-color: #ffe6ff;
+	color: black;
+	padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.headingsizebig{
+	font-size: 35px;
+	color: black;
+}
+
+.headingsizesmall{
+	font-size:30px;
+	color: black;
+}
+
+.margin{
+	text-align: center;
+	color: black;
+}
+
+.myhr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid black;
+}
+/*About Css*/
+#aboutus{
+	/*height: 100vh;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffe6ff;
+
+}
+
+#aboutus h2,h4{
+	margin-bottom: 25px;
+}
+/*.img-wrap img{
+	
+  width:400px;
+  height:400px;
+  border:2px solid black;
+  border-radius: 100%;
+
+}*/
+
+
+.img-wrap img{
+
+	width:400px;
+    height:400px;
+	padding: 10px;
+	border-radius: 100% ;
+	box-shadow: 0 0 10px ;
+	background-color: white;
+}
+
+/*Services Css*/
+.myimg {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px ;
+}
+
+.myimg:hover {
+  opacity: 0.6;
+}
+/*redirect Css*/
+#loginlog{
+	/*height: 100vh;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffe6ff;
+
+}
+
+#loginlog h2{
+	margin-bottom: 25px;
+}
+
+
+.logimg img{
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px ;
+
+}
+.logimg:hover img{
+  opacity: 0.6;
+}
+
+.logintro
+{
+font-family: Cambria; 
+font-size: 20px;
+}
+.logwd
+{
+font-family: Cambria; 
+font-size: 18px;
+}
+
+
+/*Footer Css*/
+footer {
+	background-color: #8B008B;
+	
+
+}
+
+.my-link{
+	color: aliceblue;
+}
+
+.my-link:hover{
+
+	color: aquamarine;
+}
+
+.myfooter{
+	color: aliceblue;	
+}
+

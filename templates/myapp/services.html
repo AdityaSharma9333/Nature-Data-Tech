@@ -1,0 +1,48 @@
+{% extends "myapp/base.html" %}
+{% load static %}
+{% block content %}
+<!--<link rel="stylesheet" type="text/css" href="{% static 'css/services.css' %}">-->
+<title>Our Services!</title>
+
+<div class="myclass">
+<div class="container-fluid text-center">
+  <br>
+  <h2 class="margin"><strong>Our Services</strong></h2>
+<br>
+<div class="container">
+<p class="logintro">To achieve your business targets and survive in this global market, you must go for these services:</p>
+</div>    
+  <br>
+  <br>
+  <hr class="myhr">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="{% static 'images/data.jpg' %}" class="img-responsive margin myimg">
+      <h3 class="headingsizebig"><strong>Data Analytics Services</strong></h3>
+       <br>
+            <p class="logintro" ><i>Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively</i></p>
+        
+            
+            <p class="logintro" ><i>Data mining is a particular data analysis technique that focuses on statistical modeling and knowledge discovery for predictive rather than purely descriptive purposes, while business intelligence covers data analysis that relies heavily on aggregation, focusing mainly on business information.In statistical applications, data analysis can be divided into descriptive statistics</i></p>
+    </div>
+    <div class="col-sm-4"> 
+     <img src="{% static 'images/warehouse.jpg' %}" class="img-responsive margin myimg" >
+      <h5 class="headingsizebig"><strong>Warehouse System</strong></h5>
+      <br>
+          <p class="logintro" ><i>A warehouse management system (WMS) is a software application designed to support and optimize warehouse functionality and distribution center management. These systems facilitate management in their daily planning, organizing, staffing, directing, and controlling the utilization of available resources, to move and store materials into, within, and out of a warehouse, while supporting staff in the performance of material movement and storage in and around a warehouse.</i></p>
+          <p class="logintro" ><i>A warehouse management system (WMS) is a software application designed to support and optimize warehouse functionality and distribution center management. These systems facilitate management in their daily planning, organizing, staffing, directing, and controlling the utilization of available resources, to move and store materials into, within, and out of a warehouse</i></p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="{% static 'images/ERP.jpg' %}" class="img-responsive margin myimg" >
+       <h7 class="headingsizebig"><strong>ERP Solution</strong></h7><br>
+       <br>
+          <p class="logintro"><i>ERP provides an integrated and continuously updated view of core business processes using common databases maintained by a database management system. ERP systems track business resources—cash, raw materials, production capacity—and the status of business commitments: orders, purchase orders, and payroll. The applications that make up the system share data across various departments (manufacturing, purchasing, sales, accounting, etc.) that provide the data. ERP facilitates information flow between all business functions and manages connections to outside stakeholders.</i></p>
+
+          <p class="logintro"><i>ERP provides an integrated and continuously updated view of core business processes using common databases maintained by a database management system. ERP systems track business resources—cash, raw materials, production capacity—and the status of business </i></p>   
+    </div>
+  </div>
+</div>
+</div>
+
+
+{% endblock %}

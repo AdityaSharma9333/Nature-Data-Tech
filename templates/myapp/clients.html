@@ -1,0 +1,71 @@
+{% extends "myapp/base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="myclass">
+  
+<div class="container-fluid text-center">
+  <br>
+  <h2 class="margin"><strong>Our Clients</strong></h2>
+<br>
+<div class="container">
+<p class="logintro">At Nature Tech, we help our clients in improving their decision-making capabilities with our data analytics services. By using our big data consultancy services, organizations can improve their profitability, business growth, and service quality.</p>
+</div>    
+  <br>
+  <br>
+  <hr class="myhr">
+  <br>
+  <br>
+  <br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="{% static 'images/clients/client-1.png' %}" class="img-responsive margin myimg">
+      
+    </div>
+    <div class="col-sm-4"> 
+     <img src="{% static 'images/clients/client-5.png' %}" class="img-responsive margin myimg" >
+      
+
+   
+   
+  
+      
+    </div>
+    <div class="col-sm-4"> 
+      <img src="{% static 'images/clients/client-6.png' %}" class="img-responsive margin myimg" >
+       
+    </div>
+
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="{% static 'images/clients/client-2.png' %}" class="img-responsive margin myimg">
+      
+    </div>
+    <div class="col-sm-4"> 
+     <img src="{% static 'images/clients/client-3.png' %}" class="img-responsive margin myimg" >
+      
+
+   
+   
+  
+      
+    </div>
+    <div class="col-sm-4"> 
+      <img src="{% static 'images/clients/client-8.png' %}" class="img-responsive margin myimg" >
+       
+    </div>
+    
+  </div>
+</div>
+</div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "myapp/base.html" %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+	<title>Contact Us!</title>
+	<!--<link rel="stylesheet" type="text/css" href="{% static 'css/contact.css' %}">-->
+      <div class="myclass">  
+<div class="container-fluid ">
+	<br>
+     <h2 class="margin"><center>Come In Touch With Us</center></h2>
+<br>
+<hr class="myhr">
+<h3>Fill Up The Details Here!</h3>
+<br>
+		<div class="row">
+		 <div class="col-sm-6">
+            <div class="container-fluid">
+			<form method="POST">
+			{{ form | crispy}}
+			{% csrf_token %}
+
+			<input type="submit" class='btn btn-primary' value="Submit" style="background-color:  #cc00cc">
+
+		</form>
+	</div>
+ </div>	
+
+	<div class="col-sm-6 text-center">
+		 <img src="{% static 'images/contact1.png' %}" class="img-responsive margin" style="max-width:47%; max-height: 100%;" alt="Image">
+	</div>
+	</div>
+</div>
+</div>
+
+{% endblock %}
+
+

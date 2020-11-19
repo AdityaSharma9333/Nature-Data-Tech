@@ -1,0 +1,36 @@
+{% extends "myapp/base.html" %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+         <!--<link rel="stylesheet" type="text/css" href="{% static 'css/registration.css' %}">
+-->         <title>Register Here!</title>
+		<div class="myclass">
+			<div class="container-fluid">
+		{% if registered %}
+		<br>
+		<br>
+		<h1>Thank you for registering!</h1>
+		<br>
+		<br>
+		<br>
+		{% else %}
+		<h2 class="margin"><center><strong>Register Here!</strong></center></h2>
+		<br>
+		
+		
+		    <div class="container" style="width: 63%;">
+		<form enctype="multipart/form-data" method="post">
+			{% csrf_token %}
+
+			{{ user_form | crispy }}
+			{{ profile_form | crispy }}
+			<input type="submit" value="Register" class="btn btn-primary" style="background-color:  #cc00cc" >
+
+		</form>
+	</div>
+
+		{% endif %}
+	</div>
+	</div>	
+{% endblock %}

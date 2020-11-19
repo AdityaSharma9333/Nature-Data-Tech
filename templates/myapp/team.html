@@ -1,0 +1,32 @@
+{% extends "myapp/base.html" %}
+{% load static %}
+{% block content %}
+<!--<link rel="stylesheet" type="text/css" href="{% static 'css/team.css' %}">-->
+
+
+<div class="myclass">
+<div class="container-fluid  text-center">
+  <h2 class="margin"><strong>Our Leadership Team</strong></h2>
+<br>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="{% static 'images/team/team-1.jpg' %}" class="img-responsive margin" style="width:100%" alt="Image">
+      <h3 class="headingsizebig"><strong>E Hanh Le</strong></h3>
+      <h4  class="headingsizesmall"><strong>Chief Executive Officer</strong></h4>
+    </div>
+    <div class="col-sm-4"> 
+     <img src="{% static 'images/team/team-2.jpg' %}" class="img-responsive margin" style="width:100%" alt="Image">
+      <h5 class="headingsizebig"><strong>Alex Brewer</strong></h5>
+      <h6 class="headingsizesmall"><strong>Chief Marketing Officer</strong></h6>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="{% static 'images/team/team-3.jpg' %}" class="img-responsive margin" style="width:100%" alt="Image">
+       <h7 class="headingsizebig"><strong>Andrew Gonzalez</strong></h7><br>
+      <h8 class="headingsizesmall"><strong>Chief Financial Officer</strong></h8>
+    </div>
+  </div>
+</div>
+</div>
+
+{% endblock %}
